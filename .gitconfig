@@ -1,0 +1,14 @@
+[user]
+	name = Sean Kibler
+	email = skibler@dixcom.com
+[alias]
+	st = status
+	co = checkout
+	ci = commit
+[diff]
+  color = true
+
+[status]
+  color = true
+[core]
+	excludesfile = /Users/skibler/.gitignore
