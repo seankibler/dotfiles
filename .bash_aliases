@@ -1,0 +1,10 @@
+alias ls='ls -lh'
+alias ss='bundle exec script/server'
+alias reload='source ~/.bashrc'
+alias flushdns='dscacheutil -flushcache'
+alias path="echo \"${PATH//:/$'\n'}\""
+alias c=clear
+alias df='df -h'
+alias du='du -chs'
+alias grep='grep --color'
+alias ctrb='/usr/local/bin/ctags -a -e -f TAGS --tag-relative -R app lib vendor spec features'
