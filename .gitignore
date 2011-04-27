@@ -42,3 +42,6 @@ mbox
 \.subversion
 \.viminfo
 \.passenger
+\.pow
+\.vmc_target
+\.vmc_token
