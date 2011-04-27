@@ -1,9 +1,9 @@
 if [ -e /etc/bash.bashrc ] ; then
-	source /etc/bash.bashrc
+  source /etc/bash.bashrc
 fi
 
 if [ -e "$HOME/.bashrc" ] ; then
-	source "$HOME/.bashrc"
+  source "$HOME/.bashrc"
 fi
 
 PS1='[\w]'
@@ -19,4 +19,12 @@ if [ -r ~/.dixcomrc ]; then
 fi
 
 PATH=/opt/local/bin:$PATH
+if [ -r ~/.git-completion ]; then
+  . ~/.git-completion
+fi
+
+if [ -f `brew --prefix`/etc/autojump ]; then
+  . `brew --prefix`/etc/autojump
+fi
+
 [[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
