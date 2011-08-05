@@ -45,3 +45,5 @@ mbox
 \.pow
 \.vmc_target
 \.vmc_token
+\.ec2
+\.powconfig
