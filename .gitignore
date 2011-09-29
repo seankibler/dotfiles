@@ -11,6 +11,7 @@ Sites
 autojump_errors
 bin
 mbox
+VirtualBox\ VMs
 *.swp
 \.idea
 \.CFUserTextEncoding
@@ -43,7 +44,12 @@ mbox
 \.viminfo
 \.passenger
 \.pow
+\.pry_history
 \.vmc_target
 \.vmc_token
+\.webbynode
 \.ec2
 \.powconfig
+\.scout
+\.rnd
+\.Trash
