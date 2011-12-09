@@ -23,8 +23,8 @@ if [ -r ~/.git-completion ]; then
   . ~/.git-completion
 fi
 
-if [ -f `brew --prefix`/etc/autojump ]; then
-  . `brew --prefix`/etc/autojump
+if [ -f /usr/local/etc/autojump ]; then
+  . /usr/local/etc/autojump
 fi
 
 [[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
